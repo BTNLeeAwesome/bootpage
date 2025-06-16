@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMC Coding Bootamp</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+            <!-- Nav -->            
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="application.html">Application Form</a> |
+                <a href="https://www.brightonmet.ac.uk/" target="_blank">BMC @ CCG Main Site</a>
+            </nav>
+            <h1>Complete the Form</h1>
+            <form action="https://formsubmit.co/50151237@stu.gbmc.ac.uk" method="POST" />
+            <div class="inputarea">
+                <label for="name" class="textboxlabel">Your Name</label>
+                <input id="name" type="text" name="applicant_name" required>    
+            </div>
+            <div class="inputarea">
+                <label for="email" class="textboxlabel">Your Email</label>
+                <input id="email" type="email" name="applicant_email" required>                
+            </div>
+            <h2>What languages are you interested in?</h2>
+            <div class="inputarea">
+                <input id="html" type="checkbox" name="languages[]" value="html">
+                <label for="html" class="textboxlabel">HTML</label>
+                <input id="css" type="checkbox" name="languages[]" value="css">
+                <label for="css" class="textboxlabel">CSS</label>
+                <input id="java" type="checkbox" name="languages[]" value="java">
+                <label for="java" class="textboxlabel">Java</label>                
+            </div>
+            <div class="inputarea">
+                <button type="submit">SUBMIT</button>
+            </div>
+
+
+
+            </form>
+
+    </header>
+</body>
+</html>
